@@ -13,28 +13,28 @@
 /* header */
 
 .header {
-    overflow: hidden;
+    overflow: hidden; /* any content that overflows under the bar will be hiddnen */
     background-color: #f1f1f1;
     padding: 20px 10px;
-    width: 100%;
+    width: 100%; /* the header reaches across the entire width of the page */
   }
   
   /* header buttons (including logo) */
   .header a {
-    float: left;
+    float: left; /* contents float to the left of the screen */
     color: black;
     text-align: center;
     padding: 12px;
-    text-decoration: none;
+    text-decoration: none; /* hyperlink changes the colour and underlines content and its anoying - no decor means no visible blue or underline */
     font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
+    line-height: 20px;
+    border-radius: 4px; /* creates roundness */
   }
   
   /* logo */
   .header a.logo {
     font-size: 25px;
-    font-weight: bold;
+    font-weight: bold; /* how thick/thin the characters are */
   }
   
   /* button hover */
@@ -51,7 +51,7 @@
   
   /* floats the 3 buttons to the right */
   .header-right {
-    float: right;
+    float: right; /* the 3 buttons have a class of float right, which overwriten the header float left that the logo follows */
   }
 
 /* end of header */
@@ -80,13 +80,13 @@
 }
 
 .col-2{
-    flex-grow: 2;
+    flex-grow: 2; /* how much col-2 (newsletter) will grow relative the the rest of flexable items within the container */
 }
 
 .footer div h3{
     font-weight: 300;
     margin-bottom: 30px;
-    letter-spacing: 1px;
+    letter-spacing: 1px; /* space between the characters */
 }
 
 form input{
@@ -101,13 +101,13 @@ form input{
 }
 
 form button{
-    background: transparent;
+    background: transparent; /* the inside of 'SUBSCRIBE NOW' is transparent which means the footer colour would show through instead */
     border: 2px solid #fff;
     color: #fff;
-    border-radius: 30px;
+    border-radius: 30px; /* makes the boring rectangle of a button very rounded */
     padding: 10px 30px;
     font-size: 15px;
-    cursor: pointer;
+    cursor: pointer; /* when hovering over the button, the pointing curser will show */
 }
 
 .social-icons{
@@ -118,11 +118,12 @@ form button{
     font-size: 22px;
     margin: 10px;
     color: white;
-    text-decoration: none;
-    cursor: pointer;
+    text-decoration: none; /* keeps the icons not visualy hyperlinked */
+    cursor: pointer; /* users can now easily tell the icons are clickable with the pointer */
 }
 
 /* end of footer */
+
 
 /* @media */
 
@@ -133,11 +134,11 @@ form button{
 @media screen and (max-width: 500px) {
     .header a {
         float: none;
-        display: block;
+        display: block; /* header becomes a set of blocks piled one on top of another */
         text-align: left;
     }
     .header-right {
-        float: none;
+        float: none; /* the 3 buttons no longer float to the right in mobile mode */
     }
 }
 
