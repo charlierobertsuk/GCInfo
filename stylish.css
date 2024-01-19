@@ -1,4 +1,13 @@
+/* all */
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace; /* replace with SCP & Ubuntu */
+    box-sizing: border-box;
+}
+
+/* end of all */
 
 
 /* header */
