@@ -117,6 +117,7 @@ form button{
 .social-icons a{
     font-size: 22px;
     margin: 10px;
+    color: white;
     text-decoration: none;
     cursor: pointer;
 }
