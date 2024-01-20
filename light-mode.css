@@ -1,0 +1,60 @@
+/* all */
+
+
+
+/* end of all */
+
+
+/* header */
+
+.header {
+    background-color: #f1f1f1;
+  }
+  
+  /* header buttons (including logo) */
+  .header a {
+    color: black;
+  }
+  
+  /* button hover */
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* current page */
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+
+/* end of header */
+
+
+/* footer */
+
+.footer{
+    background: #333;
+    color: #efefef;
+}
+
+
+.col-1 a{
+    color: #efefef;
+}
+
+
+form button{
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons a{
+    color: white;
+}
+
+/* end of footer */
