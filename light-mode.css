@@ -34,19 +34,19 @@
 /* footer */
 
 .footer{
-    background: #333;
-    color: #efefef;
+    background: #f1f1f1;
+    color: black;
 }
 
 
 .col-1 a{
-    color: #efefef;
+    color: black;
 }
 
 
 form button{
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid black;
+    color: black;
 }
 
 .social-icons{
@@ -54,7 +54,7 @@ form button{
 }
 
 .social-icons a{
-    color: white;
+    color: black;
 }
 
 /* end of footer */
