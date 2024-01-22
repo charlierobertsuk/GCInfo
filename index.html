@@ -12,11 +12,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- title -->
-    <title>GCInfo - Home</title> <!-- creates a title on the current tab -->
+    <title>GCInfo</title> <!-- creates a title on the current tab -->
 
     <!-- linking my css and js files to index.html -->
-    <link rel="stylesheet" type="text/css" href="stylish.css"> <!-- links to my css file -->
-    <link rel="stylesheet" type="text/css" href="dark-mode.css"> <!-- links to my css colour file -->
+    <link id="theme-stylesheet" rel="stylesheet" type="text/css" href="dark-mode.css">
+    <link id="main" rel="stylesheet" type="text/css" href="stylish.css"> <!-- links to my css file -->
     <script src="scriptilicious.js"></script> <!-- links to my javascript file -->
 
     <!-- font awesome -->
@@ -36,13 +36,17 @@
         </div>
       </div>
 
+<!-- rounded switch -->
       <div>
-        <!-- Rounded switch -->
         <label class="switch">
-            <input type="checkbox">
+            <input type="checkbox" onclick="toggleTheme('light-mode.css')">
             <span class="slider round"></span>
         </label>
       </div>
+
+<button onclick="toggleTheme('light-mode.css')">Light</button> 
+  
+<button onclick="toggleTheme('dark-mode.css')">Dark</button> 
 
 
       <!-- footer with 3 collumns -->
