@@ -128,6 +128,8 @@ form button{
     .header-right {
         float: none; /* the 3 buttons no longer float to the right in mobile mode */
     }
+        /* !! make form box smaller for mobile !! */
+
 }
 
 /* footer squash 1100px */
