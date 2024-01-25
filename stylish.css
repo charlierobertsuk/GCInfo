@@ -53,7 +53,6 @@
   position: absolute;
   height: 100%;
   overflow: auto;
-  z-index: -1;
 }
 
 .sidenav a {
