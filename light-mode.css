@@ -31,6 +31,22 @@
 /* end of header */
 
 
+/* sidenav */
+
+.sidenav {
+  background-color: #f1f1f1;
+}
+
+.sidenav a {
+  color: black;
+}
+
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* end of sidenav */
 
 
 
