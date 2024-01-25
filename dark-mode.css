@@ -30,6 +30,23 @@
 
 /* end of header */
 
+/* sidenav */
+
+.sidenav {
+  background-color: #333;
+}
+
+.sidenav a {
+  color: white;
+}
+
+.sidenav a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* end of sidenav */
+
 
 /* footer */
 
