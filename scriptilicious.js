@@ -12,3 +12,6 @@ function toggleTheme(value) {
 
     sheets[0].href = value; 
 }
+
+// Cookies
+// Responsive hamburger icon
