@@ -213,14 +213,27 @@ form button{
 }
 }
 
+
 /* stack contents collunms */
 @media (max-width: 700px) {
-  .column .left-column .center-column .right-column {
+  .column {
     width: 100%;
   }
 }
 
 /* end of @media */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
