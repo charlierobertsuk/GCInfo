@@ -77,6 +77,33 @@ div.contents {
   height: 1000px;
 }
 
+div.contents img{
+  margin-bottom: 25px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.column {
+  width: 33.33%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.left-column, .center-column, .right-column {
+  border: 1px solid #ccc;
+  margin: 5px;
+}
+
+.right-column img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 /* end of contents*/
 
 
@@ -163,7 +190,7 @@ form button{
 
 }
 
-/* footer squash 1100px */
+/* footer squash and contents shorten 1100px */
 @media screen and (max-width: 1100px) {
   .footer{
     display: table;
@@ -171,6 +198,23 @@ form button{
     .col-1, .col-2{
       margin-bottom: 50px;
     }
+  }
+
+.left-column, .center-column {
+    width: 50%;
+    float: left;
+}
+
+.right-column {
+    width: 50%;
+    float: right;
+}
+}
+
+/* stack contents collunms */
+@media (max-width: 700px) {
+  .column .left-column .center-column .right-column {
+    width: 100%;
   }
 }
 
