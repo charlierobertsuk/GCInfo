@@ -46,6 +46,7 @@
 
 /* sidenav */
 
+/*
 .sidenav {
   margin: 0;
   padding: 0;
@@ -65,6 +66,8 @@
   margin-left: 53px;
 }
 
+*/
+
 /* end of sidenav */
 
 
@@ -72,9 +75,8 @@
 /* contents */
 
 div.contents {
-  margin-left: 200px;
   padding: 1px 16px;
-  height: 1000px;
+  height: auto;
 }
 
 div.contents img{
@@ -231,7 +233,6 @@ form button{
   width: 60px;
   height: 34px;
   margin-bottom: 10px;
-  left: 35%;
 }
 
 /* hide default HTML checkbox */
